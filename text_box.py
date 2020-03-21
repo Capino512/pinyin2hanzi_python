@@ -194,6 +194,8 @@ def main():
     while running:
         clock.tick(30)
         for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                running = False
             text_box.update(event)
         screen.fill([240, 240, 240])
         screen.blit(text_box.render(), [120, 210])
