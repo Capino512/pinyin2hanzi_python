@@ -1,5 +1,5 @@
 # pinyin2hanzi_python
- 词、句拼音转汉字、拼音分割、pygame输入中文
+ 词、句拼音转汉字、拼音分割、拼音补全、pygame输入中文
 
 split_pinyin.py实现的是拼音分割，输出结果包括完美分割、可补全、其他三类，借鉴了[这里](https://blog.csdn.net/songrps/article/details/103591422/)的代码。
 
